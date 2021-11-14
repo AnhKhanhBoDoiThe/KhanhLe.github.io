@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(163, 243, 116);
+    }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Phiếu dăng ký thamn gia chương trình khuyến mã</h1>
+    <form>
+        <table>
+            <tr>
+                <th>Họ và tên</th>
+                <th>
+                    <input type="text" placeholder="Họ và tên">
+                </th>
+            </tr>
+            <tr>
+                <th>Địa chỉ</th>
+                <th>
+                    <input type="text" placeholder="Địa chỉ">
+                </th>
+            </tr>
+            <tr>
+                <th>Phone number</th>
+                <th>
+                    <input type="tel" placeholder="Phone number">
+                </th>
+            </tr>
+            <tr>
+                <th>Giới tính</th>
+                <th>
+                    <input type="radio" name="fav_language" value="Nam">
+                    <label for="Nam">Nam</label>
+                    <input type="radio" name="fav_language" value="Nu">
+                    <label for="Nu">Nu</label>
+                </th>
+            </tr>
+            <tr>
+                <th>Nghề nghiệp</th>
+                <th>
+                    <select id="jobs">
+                        <option>Giáo viên</option>
+                        <option>Ca si</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Chọn sản phẩm tham gia</th>
+                <th>
+                    <select>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Số người dự đoán tham gia</th>
+                <th>
+                    <input type="number" value="25000">
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2"><center>
+                    <input type="submit" value="Đăng Nhập">
+                </center></td>
+            </tr>
+            <tr><th colspan="2">
+                <center>Bạn đã đăng ký thành công</center>
+            </th>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(164, 241, 120);
+        color:green;
+    }
+    .container{
+        display: flex;
+    }
+    h1{
+        margin-left: 7%;
+        color:green;
+    }
+    .container-right{
+        margin: 6% 5%;
+    }
+    body{
+        margin-left: 32%;
+    }
+    .input-num{
+        width:30px;
+    }
+    fieldset{
+        width: 300px;
+        margin: 5% 12%;
+    }
+    </style>
+</head>
+<body>
+    <h1>Đăng Ký du lịch</h1>
+    <div class="container">
+        <div>
+            <form>
+                
+                <table>
+                    <tr>
+                        <td>Họ và tên</td>
+                        <td>
+                            <input type="text" class="" placeholder="Họ và tên">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td>
+                            <input type="text" class="" placeholder="Địa chỉ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td>
+                            <input type="tel" class="" placeholder="Phone number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Khách Việt Nam</td>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chọn tour</td>
+                        <td>
+                            <select>
+                                <option value="Nha Trang - Đà Lạt">Nha Trang - Đà Lạt</option>
+                                <option value="Hà Nội- HCM">Hà Nội- HCM"</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phương tiện</td>
+                        <td>
+                            <input type="radio" name="fav_language">
+                            <label for="" >Máy Bay</label>
+                            <input type="radio" name="fav_language">
+                            <label for="" >O tô</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <fieldset>
+                                <legend>Chọn sản phẩm tham gia</legend>
+                                Người lớn<input type="number" value="6" class="input-num">
+                                Trẻ em<input type="number" value="4" class="input-num">
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ghi chú thêm</td>
+                        <td>
+                            <textarea name="" id="" cols="40" rows="2">Có 2 trẻ em dưới 6 tuổi,Có 2 người ăn chay
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center><input type="submit" value="Đăng nhập"></center>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><center>Bạn đã đăng ký thành công</center></td>
+                    </tr>
+                </table>
+            </form>
+            </div>
+            <div class="container-right">
+                <select>
+                    <option>Nha Trang- Đà Lạt</option>
+                    <option>Buoon me thuat- Kontum</option>
+                </select>
+            </div>
+    </div>
+</body>
+</html>
